@@ -1,0 +1,45 @@
+
+body
+{
+    min-height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Algerian;
+    color: darkcyan;
+     background: olive;
+    font-size: x-large;
+    background-image: url("kashmir.png");
+}
+.container
+{
+    text-align: center;
+    padding: 1em;
+    border-radius: 20px;
+    background-color: white;
+    border-width: 10px;
+}
+#quoteBtn
+{
+    padding: 0.5rem 0.5rem;
+    border-radius: 5px;
+    font-family: Arial;
+    font-weight: bolder;
+    text-transform: capitalize;
+    border: darkred;
+    background: darkslateblue;
+    color: white;
+}
+#quoteBtn:hover
+{
+    /*color: crimson;*/
+}
+blockquote
+{
+    color: maroon;
+    background: white;
+    border-left: 8px solid darkcyan;
+    border-right: 8px solid darkcyan;
+    border-radius: 10px;
+    padding: 0.2rem;
+}

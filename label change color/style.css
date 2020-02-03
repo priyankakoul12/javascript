@@ -1,0 +1,37 @@
+
+body
+{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+.container
+{
+    text-align: center;
+}
+.hexcolor
+{
+    text-transform: capitalize;
+    text-decoration: underline;
+}
+.hexbtn
+{
+    color: white;
+    text-transform: capitalize;
+    border: 2px solid darkred;
+    background-color: crimson;
+    outline: none;
+    padding: 0.5rem 0.5rem;
+    font-size: 1rem;
+}
+.hex
+{
+    color: white;
+}
+.hexbtn:hover
+{
+    background-color: darkred;
+}
