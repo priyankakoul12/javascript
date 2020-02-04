@@ -1,0 +1,64 @@
+
+.logo
+{
+    border-radius: 50px;
+    width: 100px;
+
+}
+body
+{
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    text-transform: capitalize;
+    display: flex;
+    align-content: center;
+    color: darkblue;
+   font-size: medium;
+    background: bisque;
+    background-image: url("img3.png");
+
+}
+.container
+{
+    box-shadow: 0 0 10px;
+    border-radius: 100px;
+    background: white;
+    text-align: center;
+    padding: 2rem;
+
+}
+button {
+    display: block;
+    font-size: 1rem;
+    margin: 1rem auto;
+    padding: 0.5rem;
+    text-transform: capitalize;
+    background: bisque;
+    font-weight: bolder;
+}
+button:hover
+{
+    color:darkblue;
+    border-color: darkblue;
+    cursor:pointer;
+}
+#messageIn
+{
+    padding: 1rem;
+    border-color: darkblue;
+    border-width: 2px;
+    text-transform: capitalize;
+    color: black;
+    font-weight: bolder;
+    width: 20rem;
+    box-shadow: 0 0 10px darkblue;
+
+
+}
+#messageOut
+{
+    color: lightseagreen;
+    font-weight: bold;
+    margin: 0.5rem 0;
+}
